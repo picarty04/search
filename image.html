@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Search</title>
+        <title>Image Search</title>
         <link rel="stylesheet" href="C:\Users\tpica\search\styles.css">
     </head>
     <nav>
-        <a href="C:\Users\tpica\search\image.html">Images</a>
+        <a href="C:\Users\tpica\search\index.html">Google Search</a>
         <a href="#">Advanced Search</a>
     </nav><br>
     <body>
         <form action="https://www.google.com/search">
-            <h1>Google Search</h1><br>
+            <h1>Google Images</h1><br>
             <input id="search" autofocus type="text" name="q"><br>
+            <input type="hidden" name="sclient" value="img">
+            <input type="hidden" name="udm" value="2">
             <input id="button" type="submit" value="Google Search">
         </form>
     </body>
