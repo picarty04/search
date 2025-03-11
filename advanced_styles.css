@@ -1,0 +1,54 @@
+html {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+nav {
+    float: right;
+    margin: 10px;
+}
+
+nav a {
+    margin: 8px;
+    color: dimgrey;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 25px;
+    float: left;
+}
+
+label {
+    margin: 5px;
+}
+
+.search {
+    width: 500px;
+    height: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#button {
+    float: right;
+    height: 40px;
+    margin: 10px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+}
+
+#button:hover {
+    border: 1px solid black;
+}
