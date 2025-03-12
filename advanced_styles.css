@@ -23,6 +23,10 @@ form {
     float: left;
 }
 
+h2 {
+    color: #d93025;
+}
+
 label {
     margin: 5px;
 }
@@ -41,8 +45,8 @@ label {
     float: right;
     height: 40px;
     margin: 10px;
-    background-color: #4d90fe;
-    border: 1px solid #3079ed;
+    background-color: #78a1e4;
+    border: 1px solid #5186da;
     border-radius: 5px;
     font-family: Arial;
     font-size: 14px;
@@ -50,5 +54,6 @@ label {
 }
 
 #button:hover {
+    background-color: #4780da;
     border: 1px solid black;
 }
