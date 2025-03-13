@@ -20,7 +20,34 @@ nav a:hover {
 
 form {
     text-align: center;
-    margin: 175px;
+    margin: 160px;
+}
+
+form h1 {
+    font-size: 80px;
+    word-spacing: -300px;
+}
+
+form h1 sub {
+    font-size: 16px;
+    vertical-align: text-bottom;
+    color: blue;
+}
+
+.first {
+    color: blue;
+}
+
+.second {
+    color: red;
+}
+
+.third {
+    color: yellow;
+}
+
+.fourth {
+    color: green;
 }
 
 #search {
@@ -31,6 +58,20 @@ form {
     padding: 15px;
     font-family: Arial;
     font-size: 18px;
+}
+
+.button {
+    height: 40px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.button:hover {
+    border: 1px solid black;
 }
 
 #button {

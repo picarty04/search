@@ -10,9 +10,11 @@
     </nav><br>
     <body>
         <form action="https://www.google.com/search">
-            <h1>Google Search</h1><br>
+            <!--Line 14 adapted from: https://stackoverflow.com/questions/11918349/styling-individual-letters-in-word-->
+            <h1><span class="first">G</span><span class="second">o</span><span class="third">o</span><span class="first">g</span><span class="fourth">l</span><span class="second">e</span></h1>
             <input id="search" autofocus type="text" name="q"><br>
-            <input id="button" type="submit" value="Google Search">
+            <input class="button" type="submit" value="Google Search">
+            <input class="button" type="submit" value="I'm Feeling Lucky" name="btnI">
         </form>
     </body>
 </html>
